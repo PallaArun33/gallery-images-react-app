@@ -1,0 +1,29 @@
+/* Write your code here. */
+.images-list {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin: 10px;
+}
+.button {
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.thumbnail-img {
+  height: 60px;
+  width: 60px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}

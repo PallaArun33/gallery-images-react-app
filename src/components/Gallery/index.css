@@ -1,0 +1,47 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  padding: 20px;
+}
+
+.img-container {
+  height: 50%;
+  width: 100%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 750px) {
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    max-width: 1140px;
+  }
+}
+.image {
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.para {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  padding-left: 0px;
+}
